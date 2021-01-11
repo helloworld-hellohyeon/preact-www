@@ -212,10 +212,10 @@ React와 호환되는 `Children` API는 `preact/compat`에서 제공되며 기�
 
 - [PureComponent](/guide/v10/switching-to-preact#purecomponent): `props`나 `state`가 변경되었을 때만 업데이트합니다.
 - [memo](/guide/v10/switching-to-preact#memo): `PureComponent`와 유사하지만, 사용자 정의 비교 함수를 사용할 수 있습니다.
-- [forwardRef](/guide/v10/switching-to-preact#forwardRef): 명시된 자식 컴포넌트에 `ref`를 전달할 수 있습니다.
+- [forwardRef](/guide/v10/switching-to-preact#forwardRef): 특정한 자식 컴포넌트에 `ref`를 전달할 수 있습니다.
 - [Portals](/guide/v10/switching-to-preact#portals): 다른 DOM 컨테이너에 현재 트리를 계속해서 렌더링합니다.
 - [Suspense](/guide/v10/switching-to-preact#suspense): **실험 단계** 트리가 준비되지 않은 경우 fallback 컨텐츠를 보여줍니다.
-- [lazy](/guide/v10/switching-to-preact#suspense): **실험 단계** 비동기 코드를 느리게(Lazy) 로드하고 트리를 준비됨/준비되지 않음 상태로 표시합니다.
+- [lazy](/guide/v10/switching-to-preact#suspense): **실험 단계** 비동기 코드를 Lazy 로드하고 트리를 준비됨/준비되지 않음 상태로 표시합니다.
 
 [Project Goals]: /about/project-goals
 [hyperscript]: https://github.com/dominictarr/hyperscript
